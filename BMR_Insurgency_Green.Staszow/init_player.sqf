@@ -559,6 +559,7 @@ if (DebugEnabled > 0) then {
 		while {_l} do {
 			if (serverCommandAvailable "#lock") then {
 				#include "scripts\AdminMenu.sqf"
+				hintSilent "Admin Menu Available";
 				_l = false;
 			};
 			sleep 60;
